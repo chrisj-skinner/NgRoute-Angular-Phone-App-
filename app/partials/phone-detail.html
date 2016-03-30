@@ -1,0 +1,77 @@
+<article ng-controller="PhoneDetailCtrl as phoneDetail" class="row phoneDetails">
+	<aside class="col-sm-4">
+		<img ng-src="{{phoneDetail.details.images[0]}}" class="phone img-responsive center-block">
+	</aside>
+	
+	<article class="col-sm-8">
+		<header>
+			<h1>{{phoneDetail.details.name}}</h1>
+		</header>
+
+		<p>{{phoneDetail.details.description}}</p>
+
+		<footer>
+			<ul class="phone-thumbs list-unstyled">
+	  			<li ng-repeat="image in phoneDetail.details.images">
+	    			<img ng-src="{{image}}">
+	  			</li>
+			</ul>
+		</footer>
+	</article>
+	
+
+	<footer class="col-xs-12">
+		<ul class="specs list-unstyled list-inline">
+		  <li>
+		    <dl>
+		      <dt>Connectivity</dt>
+		      <dd ng-repeat="connectivity in phoneDetail.details.connectivity">{{connectivity}}</dd>
+		    </dl>
+		  </li>
+
+		  <li>
+		    <dl>
+		      <dt>Battery</dt>
+		      <dd ng-repeat="battery in phoneDetail.details.battery">{{battery}}</dd>
+		    </dl>
+		  </li>
+
+		  <li>
+		    <dl>
+		      <dt>Hardware</dt>
+		      <dd ng-repeat="hardware in phoneDetail.details.hardware">{{hardware}}</dd>
+		    </dl>
+		  </li>
+
+		  <li>
+		    <dl>
+		      <dt>Display</dt>
+		      <dd ng-repeat="display in phoneDetail.details.display">{{display}}</dd>
+		    </dl>
+		  </li>
+
+		  <li>
+		    <dl>
+		      <dt>Camera</dt>
+		      <dd ng-repeat="camera in phoneDetail.details.camera">{{camera}}</dd>
+		    </dl>
+		  </li>
+
+		  <li>
+		    <dl>
+		      <dt>Availability</dt>
+		      <dd ng-show="availability" ng-repeat="availability in phoneDetail.details.availability">{{availability}}</dd>
+		      <dd ng-hide="availability">None</dd>
+		    </dl>
+		  </li>
+		
+		  <li>
+		  	<dl>
+			    <dt>Additional Features</dt>
+			    <dd>{{phoneDetail.details.additionalFeatures}}</dd>
+			</dl>
+		  </li>
+		</ul>
+	</footer>
+	<pre>{{phoneDetail.details | json}}</pre>
+</article>

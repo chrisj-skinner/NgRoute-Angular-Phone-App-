@@ -1,0 +1,38 @@
+/* app css stylesheet */
+
+main {
+	margin-bottom: 20px;
+}
+
+.h3 {
+	font-size: 22px;
+	padding-top: 10px;
+}
+
+.main-content {
+	border-left: 1px solid #eee;
+}
+
+label[for=search]{
+	margin-right: 5px;
+}
+
+input#search {
+	max-width: 60%;
+	line-height: normal;
+}
+.results p {
+	font-weight: 600;
+}
+
+.phone {
+	margin-bottom: 10px;
+}
+
+.specs li {
+	vertical-align: top;
+	margin-left: 10px;
+}
+.specs li:first-child {
+	margin-left: 0px;
+}
