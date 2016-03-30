@@ -1,6 +1,6 @@
-# Angular Phone App - Still in Development
+# NgRoute Angular Phone App - Still in Development
 
-Angular Phone App is a single page AngularJS app that displays a list of mobile phones. 
+NgRoute Angular Phone App is a single page AngularJS app that displays a list of mobile phones with filer search options. 
 
 It has been developed from the tutorial at [AngularJSTutorial].
 
@@ -23,7 +23,7 @@ Along with the above the main different to the orginal course file that have bee
 
 ### Tech
 
-Angular Phone App uses a number of open source projects to work properly:
+NgRoute Angular Phone App uses a number of open source projects to work properly:
 
 * [AngularJS]
 * [Twitter Bootstrap]
