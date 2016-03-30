@@ -6,7 +6,7 @@ It has been developed from the tutorial at [AngularJSTutorial].
 
 Layout templates are used to build an app that has multiple views by adding routing, using an Angular module called 'ngRoute' [NgRoute].
 
-Along with the above the main different to the orginal course file that have been modified and developed it the filter section. On submitting a value into the search field the number of results under the 'Show' option is dynatically changed / reduced. Try the current demo at [Demo].
+Along with the above, the main different to the orginal course files that have been modified and developed is the filter section. On submitting a value into the search field, 'ie: Dell' the number of results under the 'Show' option is dynatically changed / reduced. Try the current demo at [Demo].
 
 **Main feed page displays:**
 
@@ -27,6 +27,8 @@ NgRoute Angular Phone App uses a number of open source projects to work properly
 
 * [AngularJS]
 * [Twitter Bootstrap]
+
+The app draws phone details from local .json files
 
 
 ### Installation
