@@ -1,6 +1,6 @@
 # NgRoute Angular Phone App - Still in Development
 
-NgRoute Angular Phone App is a single page AngularJS app that displays a list of mobile phones with filter search options. 
+NgRoute Angular Phone App is a single page AngularJS app that displays a list of mobile phones (via JSON file) with filter search options.  
 
 It has been developed from the tutorial at [AngularJSTutorial].
 
